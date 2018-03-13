@@ -1,3 +1,4 @@
+//代码中参考优达学城论坛文章  http://discussions.youdaxue.com/t/topic/32577
 // 这是我们的玩家要躲避的敌人 
 var Enemy = function(x,y,spead) {
     // 要应用到每个敌人的实例的变量写在这里
@@ -48,6 +49,7 @@ Player.prototype.handleInput = function (argument) {
             if (this.y<55) {
                 this.y=83 * 4 +55;
                 this.x=202;
+                alert("congran!");
             }
         } 
         break;
